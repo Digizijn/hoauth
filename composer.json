@@ -14,7 +14,10 @@
     },
 
     "require": {
-        "hybridauth/hybridauth" : "~2.2.1",
+        "hybridauth/hybridauth" : "*",
         "yiisoft/yii"           : ">=1.1.9"
+    },
+    "suggest": {
+        "mishamx/yii-user": "Default integration with yii-user is available."
     }
 }
