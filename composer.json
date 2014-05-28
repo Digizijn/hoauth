@@ -1,3 +1,20 @@
 {
-  "name": "sleepwalker/hoauth"
+    "name": "sleepwalker/hoauth",
+    "description": "Yii-hoauth provides simple integration with social network authorisation lib Hybridauth in Yii.",
+    "keywords": ["yii", "oauth", "openid"],
+    "authors": [
+        {
+            "name": "Sviatoslav",
+            "email": "dev@udf.su",
+            "homepage": "http://www.udf.su"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/sleepwalker/hoauth/issues"
+    },
+
+    "require": {
+        "hybridauth/hybridauth" : "~2.2.1",
+        "yiisoft/yii"           : ">=1.1.9"
+    }
 }
